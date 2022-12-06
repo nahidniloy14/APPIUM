@@ -1,0 +1,8 @@
+ {
+  "appPackage": "com.code2lead.kwad",
+  "appActivity": "com.code2lead.kwad.MainActivity",
+  "platformName": "Android",
+  "deviceName": "Xiaomi Redmi Note 9 Pro ",
+  "udid": "63e1b3c2"
+}
+

@@ -1,0 +1,55 @@
+{
+  "version": "1.0",
+  "caps": [
+    {
+      "type": "text",
+      "name": "appPackage",
+      "value": "com.code2lead.kwad"
+    },
+    {
+      "type": "text",
+      "name": "appActivity",
+      "value": "com.code2lead.kwad.MainActivity"
+    },
+    {
+      "type": "text",
+      "name": "platformName",
+      "value": "Android"
+    },
+    {
+      "type": "text",
+      "name": "deviceName",
+      "value": "Xiaomi Redmi Note 9 Pro "
+    },
+    {
+      "type": "text",
+      "name": "udid",
+      "value": "63e1b3c2"
+    }
+  ],
+  "server": {
+    "local": {},
+    "remote": {
+      "path": "/wd/hub"
+    },
+    "sauce": {
+      "dataCenter": "us-west-1"
+    },
+    "headspin": {},
+    "browserstack": {},
+    "lambdatest": {},
+    "advanced": {
+      "allowUnauthorized": true,
+      "useProxy": false
+    },
+    "bitbar": {},
+    "kobiton": {},
+    "perfecto": {},
+    "pcloudy": {},
+    "testingbot": {},
+    "experitest": {},
+    "roboticmobi": {}
+  },
+  "serverType": "remote",
+  "visibleProviders": []
+}
