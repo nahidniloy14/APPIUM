@@ -25,6 +25,11 @@
       "type": "text",
       "name": "udid",
       "value": "63e1b3c2"
+    },
+    {
+      "type": "text",
+      "name": "automationName",
+      "value": "UiAutomator2"
     }
   ],
   "server": {
