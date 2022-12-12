@@ -9,12 +9,7 @@ desired_caps['automationName'] = 'XCUITest'
 desired_caps['app'] = ('/Users/sujithreddy/Documents/IOS_APPS/UICatalog.app')
 
 driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)
+ele = driver.find_element(AppiumBy.ACCESSIBILITY_ID,("AAPLDatePickerController") )# Accessibility ID
 
-element = driver.find_element(AppiumBy.ACCESSIBILITY_ID,("AAPLDatePickerController") )# Accessibility ID
-
-
-print("Is Displayed : ",element.is_displayed())
-print("Is Enabled : ",element.is_enabled())
-print("Is selected : ",element.is_selected())
-print("Size : ",element.size)
-print("Location : ",element.location)
+print("Text on the button :", ele.text)
+print("Text on the button :", ele.get_attribute("name"))
