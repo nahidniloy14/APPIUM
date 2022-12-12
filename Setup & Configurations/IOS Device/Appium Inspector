@@ -1,0 +1,7 @@
+#---------Appium Inspector Data-----------
+
+  "platformName": "IOS",
+  "platformVersion": "13.2",
+  "deviceName": "iPhone 11 Pro",
+  "automationName": "XCUITest",
+  "app": "/Users/sujithreddy/Documents/IOS_APPS/UICatalog.app"

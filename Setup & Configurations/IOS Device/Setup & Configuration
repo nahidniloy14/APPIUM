@@ -1,0 +1,11 @@
+#-------------IOS Automation With Appium Using Python---------------------------------
+
+Download the Xcode and install it from “App Store”
+Download the Appium IOS App Demo code (.zip file) from gitgub
+     Google it for “UI Catalog”
+     Open the github link  https://github.com/appium/ios-uicatalog
+UnZip the file and click on click on UICatalog folder and then click on UICatalog.xcodeproj file in that unzip folder and it will open in xcode
+Click on "show project navigator" @ top left under the Red cross mark in xcode
+Under Products folder we can see the ".app" file install it in the iphone simulator and then copy the file and place it under any folder to give that path in our Appium code
+Start the coding in IDE for Appium
+     UICatalog.app>> select Simulator(I Phone 7 pro) >> Click Build in the menu >> Simulator will be launched
