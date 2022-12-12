@@ -1,0 +1,17 @@
+#-------------IOS Real Device SetUp-------------
+
+http://appium.io/docs/en/drivers/ios-xcuitest-real-devices/
+Install libimobiledevice and ios-deploy below brew commands
+
+/usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
+
+brew install libimobiledevice
+
+brew install  ios-deploy
+
+1.)	Create the Apple id (https://developer.apple.com/account/) and get the developer account you need to pay $99 (For Developer Account)
+2.)	Open the UICatalog project( https://github.com/appium/ios-uicatalog )  in Xcode → in “General” selection  select target device version and Select ( Signing & Certificates) → select the Team ID → Give the data in “Bundle Identifier” name its is Unique name should be given
+3.)	Select the device at top and Run it , then it will successfully install the app in your device and copy the app in some folder
+4.)	Now We need to create a dummy project and name it as  “WebDriverAgentRunner” and install that as well in real device “http://appium.io/docs/en/drivers/ios-xcuitest-real-devices/”
+5.)	Create the file in Pycharm with required capabilities and execute the code
+
