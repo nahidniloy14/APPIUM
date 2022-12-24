@@ -19,4 +19,5 @@ desired_caps['appActivity'] = 'com.code2lead.kwad.MainActivity'
 #wd is a webdriver
 #http://127.0.0.1---localhost:4723---serverid/wd/hub
 driver = webdriver.Remote("http://127.0.0.1:4723/wd/hub", desired_caps)
+#
 
